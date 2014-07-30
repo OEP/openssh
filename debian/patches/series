@@ -28,3 +28,4 @@ sigstop.patch
 debian-config.patch
 sshfp_with_server_cert_upstr
 curve25519-sha256-bignum-encoding.patch
+openssh-6.6p1-akcenv.diff
