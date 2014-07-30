@@ -1,3 +1,12 @@
+openssh (1:6.6p1-2ubuntu2akcenv1) trusty; urgency=medium
+
+  * Apply akcenv patch to include the public key contents and fingerprint
+    in the environment of AuthorizedKeysCommand (see
+    https://bugzilla.mindrot.org/show_bug.cgi?id=2081 for upstream
+    correspondence on providing equivalent functionality).
+
+ -- Paul Kilgo <pkilgo@clemson.edu>  Wed, 30 Jul 2014 11:39:33 -0400
+
 openssh (1:6.6p1-2ubuntu2) trusty; urgency=medium
 
   * Apply upstream-recommended patch to fix bignum encoding for
